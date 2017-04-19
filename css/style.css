@@ -1,0 +1,148 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Arial', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.8;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src:url('../fonts/HelveticaNeueLTStd-Bd.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Arial';
+  src:url('../fonts/ARIBL0.ttf') format('truetype');
+}
+
+article.monogram {
+  position: absolute;
+  z-index: 1;
+}
+
+/*article.monogram-bg {
+  position: absolute;
+  width: 30em;
+  height: 100vh;
+  margin-left: .1em;
+  background-color: #94c5c7;
+  opacity: .35;
+  transform: skewX(-25deg);
+} */
+
+img.monogram {
+  height: 14em;
+  width: auto;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+article.about {
+  position: absolute;
+  width: 40em;
+  height: 100vh;
+  margin-left: 12em;
+  background-color: #333333;
+  transform: skewX(-25deg);
+  z-index: 4;
+}
+
+article.portfolio {
+  position: absolute;
+  width: 54em;
+  height: 100vh;
+  margin-left: 52em;
+  background-color: #ffffff;
+  transform: skewX(-25deg);
+  z-index: 3;
+  overflow: scroll;
+
+}
+
+::-webkit-scrollbar {display:none;}
+
+article.contact {
+  position: absolute;
+  width: 50em;
+  height: 100%;
+  margin-left: 70em;
+  background-color: #333333;
+  z-index: 2;
+}
+
+article.portfolio img {
+  transform: skewX(25deg);
+  height: 45%;
+  display: block;
+  margin: auto;
+  padding-bottom: 4em;
+
+}
+
+article.about h1 {
+  transform: skewX(25deg);
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 10em;
+  line-height: .8em;
+  padding-left: .1em;
+}
+
+h1#me {
+  margin-left: .2em;
+}
+
+h1#about2 {
+  transform: skewX(25deg);
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 4em;
+  line-height: .8em;
+  margin-left: .5em;
+  margin-top: .4em;
+}
+
+article.about p {
+  transform: skewX(25deg);
+  font-family: "Arial";
+  color: #ffffff;
+  padding-top: 2em;
+  margin: auto;
+  width: 75%;
+  line-height: 1.2em;
+  letter-spacing: .2em;
+  font-size: .9em;
+}
+
+h1#contact {
+  position: fixed;
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 4.7em;
+  bottom: 0em;
+  margin-left: 5.3em;
+}
+
+table.social {
+  /*border: solid black 1px;*/
+  position: absolute;
+  right: 1em;
+  bottom: .2em;
+}
+
+table.social td {
+  padding-top: .5em;
+}
