@@ -43,18 +43,18 @@ article.monogram {
   transform: skewX(-25deg);
 } */
 
-img.monogram {
-  height: 14em;
-  width: auto;
+article.monogram img {
+  height: auto;
+  width: 13%;
   padding-left: 2em;
   padding-top: 2em;
 }
 
 article.about {
   position: absolute;
-  width: 40em;
+  width: 30%;
   height: 100vh;
-  margin-left: 12em;
+  margin-left: 10%;
   background-color: #333333;
   transform: skewX(-25deg);
   z-index: 4;
@@ -62,9 +62,9 @@ article.about {
 
 article.portfolio {
   position: absolute;
-  width: 54em;
+  width: 45%;
   height: 100vh;
-  margin-left: 52em;
+  margin-left: 43%;
   background-color: #ffffff;
   transform: skewX(-25deg);
   z-index: 3;
@@ -76,9 +76,9 @@ article.portfolio {
 
 article.contact {
   position: absolute;
-  width: 50em;
+  width: 27%;
   height: 100%;
-  margin-left: 70em;
+  right: 0em;
   background-color: #333333;
   z-index: 2;
 }
@@ -88,15 +88,20 @@ article.portfolio img {
   height: 45%;
   display: block;
   margin: auto;
-  padding-bottom: 4em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
 
+img.project:hover {
+  opacity: .4;
+  transition: .3s ease;
 }
 
 article.about h1 {
   transform: skewX(25deg);
   color: #ffffff;
   font-family: "Helvetica";
-  font-size: 10em;
+  font-size: 9vw;
   line-height: .8em;
   padding-left: .1em;
 }
@@ -109,7 +114,7 @@ h1#about2 {
   transform: skewX(25deg);
   color: #ffffff;
   font-family: "Helvetica";
-  font-size: 4em;
+  font-size: 3.5vw;
   line-height: .8em;
   margin-left: .5em;
   margin-top: .4em;
@@ -121,19 +126,18 @@ article.about p {
   color: #ffffff;
   padding-top: 2em;
   margin: auto;
-  width: 75%;
+  width: 20vw;
   line-height: 1.2em;
-  letter-spacing: .2em;
-  font-size: .9em;
+  font-size: .8vw;
 }
 
 h1#contact {
   position: fixed;
   color: #ffffff;
   font-family: "Helvetica";
-  font-size: 4.7em;
+  font-size: 4vw;
   bottom: 0em;
-  margin-left: 5.3em;
+  margin-left: 5%;
 }
 
 table.social {
@@ -145,4 +149,9 @@ table.social {
 
 table.social td {
   padding-top: .5em;
+}
+
+table.social img {
+  height: 3.5vw;
+  width: auto;
 }
