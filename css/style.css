@@ -132,12 +132,12 @@ article.about p {
 }
 
 h1#contact {
-  position: fixed;
+  position: absolute;
   color: #ffffff;
   font-family: "Helvetica";
   font-size: 4vw;
   bottom: 0em;
-  margin-left: 5%;
+  margin-left: 20%;
 }
 
 table.social {
