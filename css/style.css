@@ -104,10 +104,12 @@ article.about h1 {
   font-size: 9vw;
   line-height: .8em;
   padding-left: .1em;
+  margin-top: 2vw;
 }
 
 h1#me {
   margin-left: .2em;
+  margin-top: 0vw;
 }
 
 h1#about2 {
@@ -124,11 +126,11 @@ article.about p {
   transform: skewX(25deg);
   font-family: "Arial";
   color: #ffffff;
-  padding-top: 2em;
+  padding-top: 1.5em;
   margin: auto;
-  width: 20vw;
+  width: 25vw;
   line-height: 1.2em;
-  font-size: .8vw;
+  font-size: .9vw;
 }
 
 h1#contact {
@@ -136,8 +138,8 @@ h1#contact {
   color: #ffffff;
   font-family: "Helvetica";
   font-size: 4vw;
-  bottom: 0em;
-  margin-left: 20%;
+  bottom: 1%;
+  margin-left: 22%;
 }
 
 table.social {
@@ -154,4 +156,28 @@ table.social td {
 table.social img {
   height: 3.5vw;
   width: auto;
+}
+
+.portfolio a {
+  transform: skewX(25deg);
+  border: solid black 1px;
+}
+
+img.portrait {
+  transform: skewX(25deg);
+  height: 36%;
+  bottom: 0em;
+  right: 0em;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
+}
+
+img.wordmark {
+  transform: skewX(25deg);
+  height: 4.5vw;
+  bottom: 2vw;
+  left: 8%;
+  position: absolute;
+  z-index: 7;
 }
