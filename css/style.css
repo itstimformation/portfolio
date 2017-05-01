@@ -148,7 +148,7 @@ table.social {
   /*border: solid black 1px;*/
   transform: skewX(-25deg);
   position: absolute;
-  right: 3em;
+  right: 4em;
   bottom: .2em;
   overflow-x: hidden;
 }
