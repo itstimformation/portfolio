@@ -216,3 +216,7 @@ p#uubcu {
 p#about {
   font-size: 1vw;
 }
+
+img#gallery:hover {
+  opacity: 1;
+}
