@@ -171,11 +171,12 @@ table.social img {
 img.portrait {
   transform: skewX(25deg);
   height: 30%;
+  width: auto;
   bottom: 0em;
   right: 0em;
   position: absolute;
-  z-index: 1;
-  overflow: hidden;
+
+
 }
 
 img.wordmark {
