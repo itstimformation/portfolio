@@ -170,10 +170,10 @@ table.social img {
 
 img.portrait {
   transform: skewX(25deg);
-  height: 30%;
+  height: 25%;
   width: auto;
   bottom: 0em;
-  right: 0em;
+  right: 4em;
   position: absolute;
 
 
