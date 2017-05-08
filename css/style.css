@@ -46,7 +46,7 @@ article.monogram {
 
 article.monogram img {
   height: auto;
-  width: 13%;
+  width: 11.5%;
   padding-left: 2em;
   padding-top: 2em;
 }
@@ -132,7 +132,7 @@ article.about p {
   margin: auto;
   width: 25vw;
   line-height: 1.2em;
-  font-size: .9vw;
+  font-size: 1.1vw;
 }
 
 h1#contact {
@@ -170,12 +170,13 @@ table.social img {
 
 img.portrait {
   transform: skewX(25deg);
-  height: 36%;
+  height: 30%;
+  width: auto;
   bottom: 0em;
   right: 0em;
   position: absolute;
-  z-index: 1;
-  overflow: hidden;
+
+
 }
 
 img.wordmark {
@@ -189,4 +190,34 @@ img.wordmark {
 
 img.project {
   border-radius: 50%;
+}
+
+h1#uubcu {
+  font-size: 7vw;
+  padding-left: 2vw;
+}
+
+h2#uubcu {
+  transform: skewX(25deg);
+  margin-left: .2em;
+  margin-top: 0vw;
+  color: #ffffff;
+  font-family: "Helvetica";
+  font-size: 3.5vw;
+  line-height: .8em;
+  margin-left: 2em;
+  margin-top: .4em;
+  width: 60%;
+}
+
+p#uubcu {
+  padding-top: 2em;
+}
+
+p#about {
+  font-size: 1vw;
+}
+
+img#gallery:hover {
+  opacity: 1;
 }
